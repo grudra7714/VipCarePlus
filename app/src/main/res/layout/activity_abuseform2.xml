@@ -22,7 +22,7 @@
             android:layout_weight="1"
             android:padding="15dp"
             android:layout_gravity="top|center_horizontal"
-            android:src="@drawable/Assault_512" />
+            android:src="@drawable/assault_512" />
 
         <ImageView
             android:id="@+id/abuse_form_stealing"
