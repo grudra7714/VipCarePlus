@@ -22,7 +22,8 @@
             android:textSize="60dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="100dp"
-            android:text="Elder Abuse" />
+            android:text="Elder Abuse"
+            android:fontFamily="open"/>
 
 
     </LinearLayout>
@@ -59,7 +60,8 @@
             android:padding="15dp"
             android:src="@drawable/alert"
             android:background="@drawable/button_bg_round"
-            android:scaleType="fitCenter" />
+            android:scaleType="fitCenter"
+            android:onClick="openAbuseLog"/>
 
         <ImageButton
             android:id="@+id/follow_me_buton"
