@@ -18,8 +18,7 @@
         android:orientation="vertical"
         android:weightSum="4">
 
-        <include
-            layout="@layout/abuse_card"></include>
+        <include layout="@layout/abuse_card"></include>
         <include layout="@layout/abuse_card"></include>
         <include layout="@layout/abuse_card"></include>
         <include layout="@layout/abuse_card"></include>
