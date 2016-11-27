@@ -24,7 +24,7 @@
                 android:layout_height="120dp"
                 android:id="@+id/card_layout_image_stealing"
                 android:padding="15dp"
-                android:src="@drawable/stealing" />
+                android:src="@drawable/harassment_128" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
