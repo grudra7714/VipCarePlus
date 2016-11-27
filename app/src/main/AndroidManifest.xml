@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.core.vipcareplus">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -26,7 +27,9 @@
             android:label="REPORT NEW ABUSE"
             android:parentActivityName=".abuselog"
             android:theme="@style/AbuseFormTheme" />
-        <activity android:name=".emergency"
+        <activity
+            android:name=".emergency"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity"
             android:label="VIP CARE + ALERT">
         </activity>
