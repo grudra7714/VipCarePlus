@@ -126,6 +126,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/record_ll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#EEEEEE"
@@ -196,6 +197,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:id="@+id/save_abuse_form"
             android:text="SAVE"
             android:background="#2196F3"
             android:padding="15dp"
