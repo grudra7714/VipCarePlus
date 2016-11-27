@@ -6,7 +6,10 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -20,9 +23,16 @@ public class abuseform extends AppCompatActivity implements View.OnClickListener
         setContentView(R.layout.activity_abuseform2);
         Button save = (Button)findViewById(R.id.save_abuse_form);
         LinearLayout record = (LinearLayout)findViewById(R.id.record_ll);
+
         record.setOnClickListener(this);
 
         save.setOnClickListener(this);
+
+        Animation animBlink = AnimationUtils.loadAnimation(getApplicationContext(),
+                R.anim.blink);
+        ImageView voice_record =(ImageView)findViewById(R.id.abuse_form_voice_record);
+        voice_record.setVisibility(View.VISIBLE);
+        voice_record.startAnimation(animBlink);
     }
 
     @Override

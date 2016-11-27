@@ -38,6 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/card_layout_attack_name_attack"
+                    android:fontFamily="sans-serif-light"
                     android:text="Attack"
                     android:layout_weight="2.5"
                     android:textSize="30dp"/>
@@ -54,6 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/card_layout_attack_time_attack"
+                    android:fontFamily="sans-serif-light"
                     android:text="It happened"
                     android:layout_weight="1"
                     android:textSize="22dp"/>
@@ -63,6 +65,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/card_layout_attack_frequency_attack"
                     android:background="#FFCA28"
+                    android:fontFamily="sans-serif-light"
                     android:text="2 times. We are here to help. REPORT"
                     android:layout_weight="1"
                     android:textSize="20dp"/>

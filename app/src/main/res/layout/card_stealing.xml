@@ -38,6 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/card_layout_attack_name_stealing"
+                    android:fontFamily="sans-serif-light"
                     android:text="Stealing"
                     android:layout_weight="2.5"
                     android:textSize="30dp"/>
@@ -54,6 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/card_layout_attack_time_stealing"
+                    android:fontFamily="sans-serif-light"
                     android:text="It happened"
                     android:layout_weight="1"
                     android:textSize="22dp"/>
@@ -64,6 +66,7 @@
                     android:id="@+id/card_layout_attack_frequency_stealing"
                     android:background="#FB8C00"
                     android:text="3 times. Don't fear and report."
+                    android:fontFamily="sans-serif-light"
                     android:textSize="20dp"
                     android:layout_weight="3.40" />
             </LinearLayout>
