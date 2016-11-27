@@ -5,23 +5,25 @@
     android:id="@+id/activity_abuselog"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.core.vipcareplus.abuselog">
 
     <LinearLayout
+        android:id="@+id/abuse_log_ll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:weightSum="4">
 
-        <include layout="@layout/abuse_card"></include>
-        <include layout="@layout/abuse_card"></include>
-        <include layout="@layout/abuse_card"></include>
-        <include layout="@layout/abuse_card"></include>
+        <include layout="@layout/card_assualt"></include>
+        <include layout="@layout/card_attack"></include>
+        <include layout="@layout/card_stealing"></include>
+
+        <include layout="@layout/card_harrasment"></include>
+        <!--<include layout="@layout/abuse_card"></include>-->
+        <!--<include layout="@layout/abuse_card"></include>-->
+        <!--<include layout="@layout/abuse_card"></include>-->
+        <!--<include layout="@layout/abuse_card"></include>-->
 
     </LinearLayout>
 

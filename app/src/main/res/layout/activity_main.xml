@@ -59,7 +59,7 @@
             android:layout_marginLeft="30dp"
             android:layout_weight="1"
             android:padding="15dp"
-            android:src="@drawable/alert"
+            android:src="@drawable/sos"
             android:background="@drawable/button_bg_round"
             android:scaleType="fitCenter"
             android:onClick="openAbuseLog"/>
