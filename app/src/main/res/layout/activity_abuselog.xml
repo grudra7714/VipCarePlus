@@ -18,7 +18,6 @@
         <include layout="@layout/card_assualt"></include>
         <include layout="@layout/card_attack"></include>
         <include layout="@layout/card_stealing"></include>
-
         <include layout="@layout/card_harrasment"></include>
         <!--<include layout="@layout/abuse_card"></include>-->
         <!--<include layout="@layout/abuse_card"></include>-->
