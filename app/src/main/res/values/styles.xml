@@ -20,4 +20,7 @@
         <item name="colorPrimary">#FB8C00</item>
     </style>
 
+    <style name="EmergencyTheme">
+        <item name="colorPrimary">#FFF</item>
+    </style>
 </resources>
