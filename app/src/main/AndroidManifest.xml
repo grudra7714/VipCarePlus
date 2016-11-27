@@ -8,22 +8,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true">
         <activity
-            android:theme="@style/AppTheme"
-            android:name=".MainActivity">
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".abuselog"
-            android:theme="@style/AbuseFormTheme"
-            android:parentActivityName="com.core.vipcareplus.MainActivity"
-            android:label="Abuse Log"></activity>
-        <activity android:name=".abuseform"
-            android:parentActivityName="com.core.vipcareplus.abuselog"
-            android:label="Report New Abuse"
-            android:theme="@style/AbuseFormTheme"></activity>
+        <activity
+            android:name=".abuselog"
+            android:label="ABUSE LOG"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AbuseFormTheme" />
+        <activity
+            android:name=".abuseform"
+            android:label="REPORT NEW ABUSE"
+            android:parentActivityName=".abuselog"
+            android:theme="@style/AbuseFormTheme" />
+        <activity android:name=".emergency"></activity>
     </application>
 
 </manifest>
