@@ -23,7 +23,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="100dp"
             android:text="Elder Abuse"
-            android:fontFamily="open"/>
+            android:fontFamily="open Sans 360"
+            android:textColor="#FFE0B2"/>
 
 
     </LinearLayout>
@@ -110,6 +111,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:textSize="40dp"
+                android:fontFamily="sans-serif"
                 android:text="Location"/>
 
             <TextView
