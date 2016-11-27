@@ -26,7 +26,9 @@
             android:label="REPORT NEW ABUSE"
             android:parentActivityName=".abuselog"
             android:theme="@style/AbuseFormTheme" />
-        <activity android:name=".emergency"
+        <activity
+            android:name=".emergency"
+            android:theme="@style/AppTheme"
             android:parentActivityName=".MainActivity"
             android:label="VIP CARE + ALERT">
         </activity>

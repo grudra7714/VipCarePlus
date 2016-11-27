@@ -20,7 +20,7 @@
         <item name="colorPrimary">#FB8C00</item>
     </style>
 
-    <style name="EmergencyTheme">
+    <style name="EmergencyTheme" parent="AppTheme">
         <item name="colorPrimary">#FFF</item>
     </style>
 </resources>

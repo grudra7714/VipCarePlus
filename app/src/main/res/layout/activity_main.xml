@@ -49,7 +49,8 @@
             android:layout_weight="1"
             android:src="@drawable/log_128"
             android:background="@drawable/button_bg_round"
-            android:scaleType="fitCenter" />
+            android:scaleType="fitCenter"
+            android:onClick="openAbuseLog"/>
 
         <ImageButton
             android:id="@+id/emergency_button"
@@ -62,7 +63,7 @@
             android:src="@drawable/alert"
             android:background="@drawable/button_bg_round"
             android:scaleType="fitCenter"
-            android:onClick="openAbuseLog"/>
+            android:onClick="openEmergency"/>
 
         <ImageButton
             android:id="@+id/follow_me_buton"

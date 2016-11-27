@@ -20,4 +20,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+    public void openEmergency(View v){
+
+        Intent intent = new Intent(this, emergency.class);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
 }

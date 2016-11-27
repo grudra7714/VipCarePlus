@@ -46,7 +46,8 @@
                     android:layout_weight="0.1"
                     android:src="@drawable/mega_phone"
                     android:background="@drawable/button_bg_round_emergency"
-                    android:scaleType="fitCenter" />
+                    android:scaleType="fitCenter"
+                    android:onClick="ringAlarm"/>
 
                 <ImageButton
                     android:id="@+id/call_help_emergency"
@@ -59,7 +60,8 @@
                     android:layout_weight="0.5"
                     android:src="@drawable/ic_call_white_24dp"
                     android:background="@drawable/button_bg_round_emergency"
-                    android:scaleType="fitCenter" />
+                    android:scaleType="fitCenter"
+                    android:onClick="callEmergency"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
