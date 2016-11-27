@@ -1,7 +1,11 @@
 package com.core.vipcareplus;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 
 public class abuselog extends AppCompatActivity {
 
@@ -10,4 +14,20 @@ public class abuselog extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abuselog);
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.plus_button, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+
+        Intent intent = new Intent(this, abuseform.class);
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+        return true;
+    }
+
 }
