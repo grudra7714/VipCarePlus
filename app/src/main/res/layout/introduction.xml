@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="INTRODUCTION"
+        android:layout_marginLeft="20dp"
+        android:textSize="30sp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:textSize="16sp"
+        android:text="Elder abuse is a term referring to any knowing, intentional, or negligent act by a caregiver or any other person that causes harm or a serious risk of harm to a vulnerable adult.
+
+Legislatures in all 50 states have passed some form of elder abuse prevention laws."
+
+        />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_height="312dp"
+        android:layout_width="match_parent"
+        android:id="@+id/stopAbuse"
+        android:src="@drawable/stopElderAbuse"
+        />
+
+
+</LinearLayout>
+
