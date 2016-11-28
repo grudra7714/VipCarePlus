@@ -13,90 +13,149 @@
         android:id="@+id/elder_abuse_ll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="0.5"
         android:background="@drawable/border">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="60dp"
-            android:fontFamily="sans-serif-thin"
-            android:layout_marginLeft="10dp"
+            android:textSize="50dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginLeft="60dp"
             android:layout_marginTop="100dp"
-            android:text="ELDER ABUSE"
+            android:text="Send an Alert"
             android:textColor="#FFE0B2"/>
 
 
     </LinearLayout>
+
     <LinearLayout
-        android:id="@+id/content_ll"
-        android:layout_below="@+id/elder_abuse_ll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_weight="1"
-        android:weightSum="3"
-        android:background="@drawable/border">
+        android:layout_weight="1.7"
+        android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/log_button"
-            android:layout_width="100dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="120dp"
-            android:layout_marginBottom="60dp"
-            android:layout_marginLeft="10dp"
-            android:padding="15dp"
-            android:layout_weight="1"
-            android:src="@drawable/log_128"
-            android:background="@drawable/button_bg_round"
-            android:scaleType="fitCenter"
-            android:onClick="openAbuseLog"/>
+        <LinearLayout
+            android:id="@+id/content_ll"
+            android:layout_below="@+id/elder_abuse_ll"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.2"
+            android:weightSum="3"
+            android:background="@drawable/border">
 
-        <ImageButton
-            android:id="@+id/emergency_button"
-            android:layout_width="100dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="120dp"
-            android:layout_marginLeft="30dp"
-            android:layout_weight="1"
-            android:padding="15dp"
-            android:src="@drawable/sos"
-            android:background="@drawable/button_bg_round"
-            android:scaleType="fitCenter"
-            android:onClick="openEmergency"/>
+            <ImageButton
+                android:id="@+id/log_button"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="10dp"
+                android:padding="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_note_add_black_24dp"
+                android:background="#FF9900"
+                android:scaleType="fitCenter"
+                android:onClick="openAbuseLog"/>
 
-        <ImageButton
-            android:id="@+id/follow_me_buton"
-            android:layout_width="100dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="120dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:padding="15dp"
-            android:src="@drawable/foot_footsteps_footprints_shoes"
-            android:background="@drawable/button_bg_round"
-            android:scaleType="fitCenter" />
+            <ImageButton
+                android:id="@+id/emergency_button"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:padding="15dp"
+                android:src="@drawable/sos"
+                android:background="@drawable/button_bg_round"
+                android:scaleType="fitCenter"
+                android:onClick="openEmergency"/>
+
+            <ImageButton
+                android:id="@+id/follow_me_buton"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:src="@drawable/ic_info_outline_black_36dp"
+                android:background="#FF9900"
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:background="#FF9900"
+            android:orientation="horizontal"
+            android:layout_weight="1.2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:textSize="22dp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:text="Add Abuse" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:textSize="22dp"
+                android:text="Emergency" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.3"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="22dp"
+                android:text="Elder Abuse" />
+        </LinearLayout>
 
     </LinearLayout>
+
+
     <LinearLayout
         android:layout_below="@+id/content_ll"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
         android:orientation="horizontal"
         android:weightSum="3"
-        android:layout_weight="1"
+        android:layout_weight="0.8"
         android:background="#FFF">
 
-        <ImageButton
-            android:scaleType="fitXY"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginTop="5dp"
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="120dp"
+            android:padding="10dp"
+            android:background="#EEEEEE"
             android:layout_weight="1"
-            android:layout_marginBottom="22dp"
-            android:background="#FFF"
-            android:src="@drawable/ic_location_on_black_24dp"/>
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:id="@+id/imageView" />
+
+        <!--<ImageButton-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_marginBottom="22dp"-->
+            <!--android:background="#FFF"-->
+            <!--android:src="@drawable/ic_location_on_black_24dp"/>-->
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -112,7 +171,7 @@
                 android:layout_marginLeft="10dp"
                 android:fontFamily="sans-serif-light"
                 android:layout_weight="1"
-                android:textSize="40dp"
+                android:textSize="30dp"
                 android:text="Location"/>
 
             <TextView
@@ -126,14 +185,11 @@
         </LinearLayout>
         <ImageButton
             android:scaleType="fitXY"
-            android:layout_width="70dp"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:background="#EEEEEE"
             android:layout_weight="1"
-            android:layout_height="70dp"
-            android:rotation="270"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="22dp"
-            android:background="#FFF"
             android:src="@drawable/ic_chevron_right_orange_24dp"/>
 
     </LinearLayout>

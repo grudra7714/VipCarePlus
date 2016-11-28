@@ -5,6 +5,9 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +16,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Animation animBlink = AnimationUtils.loadAnimation(getApplicationContext(),
+                R.anim.blink);
+        ImageView emergency =(ImageView)findViewById(R.id.emergency_button);
+        emergency.setVisibility(View.VISIBLE);
+        emergency.startAnimation(animBlink);
+
     }
 
     public void openAbuseLog(View v){

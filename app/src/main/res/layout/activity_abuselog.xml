@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_abuselog"
+    android:padding="20dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -19,10 +20,6 @@
         <include layout="@layout/card_attack"></include>
         <include layout="@layout/card_stealing"></include>
         <include layout="@layout/card_harrasment"></include>
-        <!--<include layout="@layout/abuse_card"></include>-->
-        <!--<include layout="@layout/abuse_card"></include>-->
-        <!--<include layout="@layout/abuse_card"></include>-->
-        <!--<include layout="@layout/abuse_card"></include>-->
 
     </LinearLayout>
 
