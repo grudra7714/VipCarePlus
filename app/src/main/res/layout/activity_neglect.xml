@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_neglect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.core.vipcareplus.neglect">
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Neglect-Self Neglect Abuse"
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:paddingTop="5dp"
+            android:textSize="16sp"
+            android:text="Neglect-- The failure by those responsible to provide food, shelter, health care, or protection for a vulnerable elder.
+
+Self Neglect-- Characterized as the failure of a person to perform essential, self-care tasks and that such failure threatens his/her own health or safety.
+
+ It can be intentional or unintentional, based on factors such as ignorance or denial that an elderly charge needs as much care as he or she does.
+
+"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_height="312dp"
+        android:layout_width="match_parent"
+        android:id="@+id/stopAbuse"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/neglect"
+        />
+
+</LinearLayout>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.core.vipcareplus">
+
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
@@ -17,11 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".abuselog"
             android:label="ABUSE LOG"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AbuseFormTheme" />
+
         <activity
             android:name=".abuseform"
             android:label="REPORT NEW ABUSE"
@@ -29,10 +32,33 @@
             android:theme="@style/AbuseFormTheme" />
         <activity
             android:name=".emergency"
-            android:theme="@style/AppTheme"
+            android:label="VIP CARE + ALERT"
             android:parentActivityName=".MainActivity"
-            android:label="VIP CARE + ALERT">
-        </activity>
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".complete_information"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".introduction"
+            android:parentActivityName=".complete_information"
+            android:theme="@style/AppTheme"    />
+
+        <activity android:name=".attack"
+            android:parentActivityName=".complete_information"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".neglect"
+            android:parentActivityName=".complete_information"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".stealing"
+            android:parentActivityName=".complete_information"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name=".warning"
+            android:parentActivityName=".complete_information"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_attack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.core.vipcareplus.attack">
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Physical-Sexual Abuse"
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:textSize="16sp"
+            android:text="Inflicting physical pain or injury on a senior, e.g. slapping, bruising, or restraining by physical or chemical means.
+
+Sexual abuse is any form of non-consensual physical contact. It includes rape, molestation, or any sexual conduct with a person who lacks the mental capacity to exercise consent."
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_height="312dp"
+        android:layout_width="match_parent"
+        android:id="@+id/stopAbuse"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/assault"
+        />
+
+</LinearLayout>
